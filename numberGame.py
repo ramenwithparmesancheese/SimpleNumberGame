@@ -4,7 +4,7 @@ var = -1
 print("The maximum number able to be generated is?")
 read = int(input()) 
 var = random.randint(0, read)
-#print(var)
+
 guess = None
 count = 0
 
@@ -19,4 +19,3 @@ while guess != var:
 
 print(f"You WON! It took {count} guesses")
 
-#dkmkdmak.moveMotors
